@@ -1,0 +1,19 @@
+{
+  "name": "mock-django-server",
+  "version": "1.0.0",
+  "main": "middleware.js",
+  "scripts": {
+    "server": "json-server --watch db.json --routes routes.json --middlewares middleware.js --port 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "json-server": "0.17.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

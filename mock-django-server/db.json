@@ -1,0 +1,35 @@
+{
+  "django-orders": [
+    {
+      "id": "ed139b83-3e6b-4b62-b9d4-6154c9375560",
+      "orders": [
+        {
+          "id": 1,
+          "product": "Product A",
+          "quantity": 2,
+          "price": 29.99,
+          "status": "delivered"
+        },
+        {
+          "id": 2,
+          "product": "Product B",
+          "quantity": 1,
+          "price": 49.99,
+          "status": "processing"
+        }
+      ]
+    },
+    {
+      "id": "cc2ea56c-aab9-48f7-b57a-7db9262f7882",
+      "orders": [
+        {
+          "id": 3,
+          "product": "Product C",
+          "quantity": 3,
+          "price": 19.99,
+          "status": "shipped"
+        }
+      ]
+    }
+  ]
+}
