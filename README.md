@@ -44,7 +44,7 @@ The project follows a modular architecture with the following main components:
 
 ### Prerequisites
 
-- Node.js (v14 or later)
+- Node.js (v18 or later)
 - npm or yarn
 - PostgreSQL
 
@@ -78,7 +78,6 @@ The project follows a modular architecture with the following main components:
 5. Start the application:
 
    ```bash
-   # Development mode
    yarn run start:dev
    ```
 
@@ -87,8 +86,9 @@ The project follows a modular architecture with the following main components:
 ### Authentication
 
 - `POST /api/auth/register` - Register a new user
-- ## `POST /api/auth/login` - Login and get access token
-- `GET /api/auth/profile` - Get current user profile
+- `POST /api/auth/login` - Login and get access token
+  ***
+- `GET /api/auth/profile` - Helper route to get current user profile
 
 ### Customer Management
 
