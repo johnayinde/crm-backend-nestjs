@@ -2,6 +2,10 @@
 
 A robust CRM backend API built with NestJS that provides customer management functionality, secure authentication, and integration with Django endpoints.
 
+## Postman Collection
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/11191710/2sAYkLkGPH)
+
 ## Features
 
 - **Customer Management API**
